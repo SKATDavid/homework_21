@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Мой сайт</title>
+	</head>
+	<body>
+		<main>
+		<table border="2px">
+			<caption>Какая-то штука</caption>	
+			<thead>
+					<tr>
+						<td rowspan="2" bgcolor="gray"> </td>
+						<td rowspan="2">Факт 2000г</td>
+						<td colspan="3">Месяцы</td>
+						<td colspan="4">Кварталы</td>
+						<td rowspan="2">Всего за год</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>I</td>
+						<td>II</td>
+						<td>III</td>
+						<td>IV</td>
+					</tr>
+
+			</thead>
+			<tfoot>
+				<tr>
+					<td>Минус: на конец периода</td>
+					<td bgcolor="gray"> </td>
+					<td>415</td>
+					<td>492</td>
+					<td>512</td>
+					<td>516</td>
+					<td>464</td>
+					<td>492</td>
+					<td>528</td>
+					<td>508</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>Продажа</td>
+					<td>40 500</td>
+					<td>2 188</td>
+					<td>2 784</td>
+					<td>3 251</td>
+					<td>8 223</td>
+					<td>9 406</td>
+					<td>10 288</td>
+					<td>10 238</td>
+					<td>38 155</td>
+				</tr>
+
+				<tr>
+					<td>Плюс: запас сырья на начало периода</td>
+					<td bgcolor="gray"> </td>
+					<td>456</td>
+					<td>580</td>
+					<td>679</td>
+					<td>658</td>
+					<td>672</td>
+					<td>678</td>
+					<td>752</td>
+					<td>721</td>
+				</tr>
+
+				<tr>
+					<td>Минус: запас сырья на конец периода</td>
+					<td bgcolor="gray"> </td>
+					<td>580</td>
+					<td>679</td>
+					<td>658</td>
+					<td>633</td>
+					<td>648</td>
+					<td>699</td>
+					<td>721</td>
+					<td>721</td>
+				</tr>
+
+				<tr>
+					<td>Затраты на основные материалы</td>
+					<td bgcolor="gray"> </td>
+					<td>1 036</td>
+					<td>1 259</td>
+					<td>1 336</td>
+					<td>3 631</td>
+					<td>3 951</td>
+					<td>4 297</td>
+					<td>4 263</td>
+					<td>16 142</td>
+				</tr>
+
+				<tr>
+					<td>Затраты на оплату труда основных рабочих</td>
+					<td bgcolor="gray"> </td>
+					<td>176</td>
+					<td>217</td>
+					<td>248</td>
+					<td>641</td>
+					<td>695</td>
+					<td>743</td>
+					<td>723</td>
+					<td>2 802</td>
+				</tr>
+
+				<tr>
+					<td>Общепроизводственные расходы</td>
+					<td bgcolor="gray"> </td>
+					<td>280</td>
+					<td>283</td>
+					<td>286</td>
+					<td>849</td>
+					<td>849</td>
+					<td>849</td>
+					<td>849</td>
+					<td>3 396</td>
+				</tr>
+
+				<tr>
+					<td>Плюс: стоимость запасов горячей продукции</td>
+					<td bgcolor="gray"> </td>
+					<td bgcolor="gray"> </td>
+					<td bgcolor="gray"> </td>
+					<td bgcolor="gray"> </td>
+					<td bgcolor="gray"> </td>
+					<td bgcolor="gray"> </td>
+					<td bgcolor="gray"> </td>
+					<td bgcolor="gray"> </td>
+					<td bgcolor="gray"> </td>
+				</tr>
+
+				<tr>
+					<td>Плюс: на начало периода</td>
+					<td bgcolor="gray"> </td>
+					<td>326</td>
+					<td>326</td>
+					<td>326</td>
+					<td>326</td>
+					<td>326</td>
+					<td>326</td>
+					<td>326</td>
+					<td>326</td>
+				</tr>
+			</tbody>
+		</table> <br> <br> <br>
+
+		<form action="/form.html" method="post">
+			<h2>Вход</h2> <br>
+        	<label> Login <input type="text" name="text"></label>
+        	<label> Password <input type="password" name="password"></label>
+        	<button>Log in</button> <br>
+        	<h2>Регистрация</h2> <br>
+        	<label> Придумайте логин <input type="text" name="text"></label>
+        	<label> Придумайте пароль <input type="password" name="password"></label> 
+        	<label>Введите свой e-mail<input type="email" name="email"></label> <br>
+        	<label>Согласен с условиями лицензионного соглашения<input type="checkbox" name="checkbox"></label> <br>
+        	<label> Мужчина <input type="radio" name="radio" checked="checked"></label> <br>
+        	<label> Женщина <input type="radio" name="radio"></label> <br>
+        	<label> Животное <input type="radio" name="radio"></label> <br>
+        	<label>Введите ваш возраст<input type="number" name="number" min="18" max="100" step="1"></label> <br>
+        	<label> Загрузите что-то, пожалуйста: <input type="file" name="file"></label> <br>
+        	<input type="reset" name="reset"> <br>
+        	<input type="submit" name="submit"> <br>
+        	<label>Найдите своих друзей без регистрации:<input type="search" name="search"></label> <br>
+        	<label>Или введите полученную ссылку:<input type="url" name="url"></label> <br>
+        	<label>Поставьте оценку сайту<input type="range" name="range" min="1" max="10" step="1"></label>
+            <button>Оценить</button>
+            <label> Или оцените, используя выпадающий список<select name="select" size="1">
+            	<option>1</option>
+    			<option>2</option>
+    			<option>3</option>
+    			<option>4</option>
+    			<option>5</option>
+    			<option>6</option>
+    			<option>7</option>
+    			<option>8</option>
+    			<option>9</option>
+    			<option>10</option>
+			</select></label>
+			<button>Оценить</button> 
+        </form>
+        </main>
+	</body>
+</html>
