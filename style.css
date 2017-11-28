@@ -53,6 +53,33 @@
 	padding-right: 28px
 }
 
+#m1 {
+	margin-left: 180px;
+	font-family: Formular;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	color: #80bb3d;
+}
+
+#m2 {
+	margin-left: 50px;
+	font-family: Formular;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	color: #4b721d;
+}
+
+#m3 {
+	margin-left: 20px;
+	font-family: Formular;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	color: #4b721d;
+}
+
 #ap-1 {
 	height: 360px;
 	padding-right: 20px; 
@@ -334,9 +361,9 @@ A:visited{
 }
 
 #contacts{
-	margin-left: -25px;
+	margin-left: 0px;
 	margin-top: 85.6px;
-    width: 1200px;
+    width: 1150px;
     background: #f4f4f4;
     height: 309px;
     padding-top:36px;
