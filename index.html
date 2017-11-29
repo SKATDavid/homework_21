@@ -2,6 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Азбука вкуса</title>
@@ -9,144 +11,129 @@
 <body>
 	<div id="container" class="container">
 
-		<div class="row hidden-md hidden-sm hidden-xs">
-			<div id="logo" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-				<img src="images/logo.png">
-			</div>
-			<div id="main1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<a href="#zag1">ВКУСНЫЕ ЦЕНЫ</a>
-			</div>
-			<div  id="main2" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-				<a href="#zag2">ВКУСНЫЕ ИДЕИ</a>
-			</div>
-			<div id="main3" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-				<a href="#contacts">КОНТАКТЫ</a>
-			</div>
-		</div>
-
-
-
-
-
-
-
-
-
-
-				<!--Navbar--> 
+        <!-- Навигационное меню -->
 		<nav style="height: 85px" class="navbar navbar-default" role="navigation">
         	<div class="container-fluid">
 	        	<div class="navbar-header">
-			        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <button type="button" class="navbar-toggle collapsed burger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="margin-top: 30px">
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			        </button>
 	      		<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
 	    		</div>
-	    		<!-- Основная часть меню (может содержать ссылки, формы и другие элементы) -->
-	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	    		  <span class="sr-only">Toggle navigation</span>
-			      <a id="m1" href="#zag1">ВКУСНЫЕ ЦЕНЫ</a>
-			      <a id="m2" href="#zag2">ВКУСНЫЕ ИДЕИ</a>
-			      <a id="m3" href="#contacts">КОНТАКТЫ</a>
+	    	
+	    		<div class="collapse navbar-collapse menu" id="bs-example-navbar-collapse-1">
+			     <a id="m1" href="#zag1">ВКУСНЫЕ ЦЕНЫ</a>
+			     <a id="m2" href="#zag2">ВКУСНЫЕ ИДЕИ</a>
+			     <a id="m3" href="#contacts">КОНТАКТЫ</a>
 	    		</div>
   			</div>
 		</nav>
-		<!--Navbar-->
-		<!--First images-->
+		<!-- Навигационное меню -->
+
+		<!--Первые фото-->
 		<div class="row">
-			<div id="ap-1" class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+			<div class="col-xs-8 ap-1">
 				<img src="images/ap-1.jpg">
 			</div>
-			<div id="ap-2" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+			<div class="col-xs-4 ap-2">
 				<img src="images/ap-2.jpg">
 			</div>
 		</div>
-		<!--First images-->
+		<!--Первые фото-->
 
+		<!--Первый заголовок-->
 		<div id="zag1" >Вкусные цены</div>
+		<!--Первый заголовок-->
 
-		<div id="rowtovar" class="row">
-			<div id="tovar1" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		<!--Лента товаров-->
+		<div class="row rowtovar">
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 tovar1">
 				<img src="images/bp-1.jpg">
-					<div id="naz1">
+					<div class="naz1">
 						Морковь <br> «Просто Азбука» 
 					</div> 
 						<br> <br>
-					<div id="old1">
+					<div class="old1">
 						<s>-.72</s>
 					</div>
-					<div id="new1"">
+					<div class="new1"">
 						<b>-.58</b><font size="4">.50</font> 
 					</div>
 			</div>
-			<div id="tovar2" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 tovar2">
 				<img src="images/bp-2.jpg">
-					<div id="naz2">
+					<div class="naz2">
 						Чипсы «Rocer’s»
 					</div> 
 						<br> <br>
-					<div id="old2">
+					<div class="old2">
 						<s>-.140</s>
 					</div>
-					<div id="new2";">
+					<div class="new2";">
 						<b>-.78</b><font size="4">.80</font> 
 					</div>
 			</div>
-			<div id="tovar3" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 tovar3">
 					<img src="images/bp-3.jpg">
-					<div id="naz3">
+					<div class="naz3">
 						Томаты <br> «На ветке»
 					</div>
 						<br> <br>
-					<div id="old3">
+					<div class="old3">
 						<s>-.85</s>
 					</div>
-					<div id="new3">
+					<div class="new3">
 						<b>-.65</b><font size="4">.00</font> 
 					</div>
 			</div>
-			<div id="tovar4" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 tovar4">
 					<img src="images/bp-4.jpg">
-					<div id="naz4">
+					<div class="naz4">
 						Сыр<br>«Вьё Булонь»
 					</div>
 						<br> <br>
-					<div id="old4">
+					<div class="old4">
 						<s>-.480</s>
 					</div>
-					<div id="new4">
+					<div class="new4">
 						<b>-.420</b><font size="4">.50</font> 
 					</div>
 			</div>
 		</div>
+		<!--Лента товаров-->
 
+		<!--Второй заголовок-->
 		<div id="zag2">
 			Вкусные идеи
 		</div>
+		<!--Второй заголовок-->
 
+		<!--Вторые фото-->
 		<div class="row">
-              <div id="picture1" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                 <div id="mask" class="mask">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 picture1">
+                 <div class="mask">
                       Полуфабрикаты
                   </div>
               </div>
-              <div id="picture2" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                 <div id="mask2" class="mask2">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 picture2">
+                 <div class="mask2">
                       Легкие десерты
                  </div>
               </div>
           </div>
-          <div id="sred" class="row">
-              <div id="picture3" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  <div id="mask3" class="mask3">
+          <div class="row sred">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 picture3">
+                  <div class="mask3">
                       Наша продукция
                   </div>
               </div>
           </div>
+          <!--Вторые фото-->
 
-		<div id="contacts">
+        <!--Контакты-->
+		<div class="contacts">
         	<div class="container">
          		<div class="row">
             		<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
@@ -170,14 +157,17 @@
          		</div>
         	</div>
     	</div>
+    	<!--Контакты-->
 
+    	<!--Конец-->
 		<div class="container">
         	<div class="row">
-            	<div id="foot" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 foot">
                 	2017, Азбука Вкуса Все права защищены. Условия и соглашения Интернет-магазин продуктов Азбука Вкуса: продукты питания, хозтовары, сопутствующие товары. Доставка продуктов осуществляется в пределах Москвы и Московской области
             	</div>
         	</div>
     	</div>
+    	<!--Конец-->
 
 	</div>
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

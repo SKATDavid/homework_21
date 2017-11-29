@@ -53,8 +53,13 @@
 	padding-right: 28px
 }
 
+.menu {
+	padding-top: 20px;
+}
+
+
 #m1 {
-	margin-left: 180px;
+	margin-left: 185px;
 	font-family: Formular;
 	font-size: 28px;
 	font-weight: bold;
@@ -63,7 +68,7 @@
 }
 
 #m2 {
-	margin-left: 50px;
+	margin-left: 35px;
 	font-family: Formular;
 	font-size: 28px;
 	font-weight: bold;
@@ -72,7 +77,7 @@
 }
 
 #m3 {
-	margin-left: 20px;
+	margin-left: 30px;
 	font-family: Formular;
 	font-size: 28px;
 	font-weight: bold;
@@ -80,13 +85,13 @@
 	color: #4b721d;
 }
 
-#ap-1 {
+.ap-1 {
 	height: 360px;
 	padding-right: 20px; 
 	margin-top: 36px
 }
 
-#ap-2 {
+.ap-2 {
 	height: 360px;
 	padding-left: 10px;
 	margin-top: 36px
@@ -103,12 +108,12 @@
 	color: #4b721d;
 }
 
-#rowtovar {
+.rowtovar {
 	margin-left: 0px; 
 	margin-right: 15px
 }
 
-#tovar1 {
+.tovar1 {
 	height: 384px;
 	padding-left: 30px;
 	padding-right: 7px;
@@ -116,7 +121,7 @@
 	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.21);
 }
 
-#tovar2 {
+.tovar2 {
 	height: 384px;
 	padding-left: 22px;
 	padding-right: 15px;
@@ -125,7 +130,7 @@
 }
 
 
-#tovar3 {
+.tovar3 {
 	height: 384px;
 	padding-left: 14px;
 	padding-right: 23px;
@@ -133,7 +138,7 @@
 	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.21)
 }
 
-#tovar4 {
+.tovar4 {
 	height: 384px;
 	padding-left: 6px;
 	padding-right: 30px;
@@ -141,7 +146,7 @@
 	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.21)
 }
 
-#naz1 {
+.naz1 {
 	height: 26px;
 	padding-left: 29px;
 	padding-right: 45.8px;
@@ -151,7 +156,7 @@
 	color: #515151;width: 263px;
 }
 
-#naz2 {
+.naz2 {
 	height: 26px;
 	padding-left: 29px;
 	padding-right: 45.8px;
@@ -161,7 +166,7 @@
 	color: #515151;width: 263px;
 }
 
-#naz3 {
+.naz3 {
 	height: 26px;
 	padding-left: 29px;
 	padding-right: 45.8px;
@@ -171,7 +176,7 @@
 	color: #515151;width: 263px;
 }
 
-#naz4 {
+.naz4 {
 	height: 26px;
 	padding-left: 29px;
 	padding-right: 45.8px;
@@ -182,7 +187,7 @@
 	width: 263px;
 }
 
-#old1 {
+.old1 {
 	padding-bottom: 22.7px;
 	padding-left: 28px;
 	padding-right: 0px;
@@ -195,7 +200,7 @@
 	float: left;
 }
 
-#old2 {
+.old2 {
 	padding-bottom: 22.7px;
 	padding-left: 28px;
 	padding-right: 0px;
@@ -208,7 +213,7 @@
 	float: left;
 }
 
-#old3 {
+.old3 {
 	padding-bottom: 22.7px;
 	padding-left: 28px;
 	padding-right: 0px;
@@ -221,7 +226,7 @@
 	float: left;
 }
 
-#old4 {
+.old4 {
 	padding-bottom: 22.7px;
 	padding-left: 28px;
 	padding-right: 0px;
@@ -234,7 +239,7 @@
 	float: left;
 }
 
-#new1 {
+.new1 {
 	font-size:28px; 
 	color:#4b721d; 
 	left: 152px; 
@@ -242,7 +247,7 @@
 	float: right;
 }
 
-#new2 {
+.new2 {
 	font-size:28px; 
 	color:#4b721d; 
 	left: 152px; 
@@ -250,7 +255,7 @@
 	float: right;
 }
 
-#new3 {
+.new3 {
 	font-size:28px; 
 	color:#4b721d; 
 	left: 152px; 
@@ -258,7 +263,7 @@
 	float: right;
 }
 
-#new4 {
+.new4 {
 	font-size:28px; 
 	color:#4b721d; 
 	left: 152px; 
@@ -288,7 +293,7 @@ A:visited{
 	color: #4b721d;
 }
 
-#picture1{
+.picture1{
 	margin-top: 21px;
     margin-left:15px;
     margin-right:25px;
@@ -302,7 +307,7 @@ A:visited{
     background-color: rgba(46, 46, 46, 0.21);
     background-image:url('images/cp-1.jpg');
 }
-#picture2{
+.picture2{
 	margin-top: 21px;
     margin-left:15px;
     padding: 0 0 0 0;
@@ -314,7 +319,7 @@ A:visited{
     border-radius: 2px;
     background-image:url('images/cp-2.jpg');
 }
-#picture3{
+.picture3{
     margin-left:20px;
     padding: 0 0 0 0;
     color:#ffffff;
@@ -325,7 +330,7 @@ A:visited{
     border-radius: 2px;
     background-image:url('images/cp-3.jpg');
 }
-#mask{
+.mask{
     padding-top:126px;
     text-align: center;
     width: 555px;
@@ -335,7 +340,7 @@ A:visited{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
     z-index: 2;
 }
-#mask2{
+.mask2{
     padding-top:126px;
     text-align: center;
     width: 555px;
@@ -345,7 +350,7 @@ A:visited{
     z-index: 2;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
 }
-#mask3{
+.mask3{
     padding-top:157px;
     text-align: center;
     width: 1140px;
@@ -355,12 +360,12 @@ A:visited{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
     z-index: 2;
 }
-#sred{
+.sred{
     margin-top: 30px;
     margin-bottom: 85.6px;
 }
 
-#contacts{
+.contacts{
 	margin-left: 0px;
 	margin-top: 85.6px;
     width: 1150px;
@@ -372,7 +377,7 @@ A:visited{
     font-family:Formular;
 }
 
-#foot{
+.foot{
     text-align: center;
     color:#c3c3c3;
     font-size:16px;
