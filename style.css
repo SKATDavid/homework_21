@@ -10,6 +10,13 @@
 	padding-right: 66px
 }
 
+.navbar1 {
+	height: 85px; 
+	background-color: white;
+	border: none; 
+	border-radius: 0; 
+}
+
 #main1 {
 	margin-top: 24px;
 	height: 60px;
@@ -55,6 +62,7 @@
 
 .menu {
 	padding-top: 20px;
+	background-color: : #80bb3d;
 }
 
 
